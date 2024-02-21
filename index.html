@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Transparent Login Form</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="logo">IdleCoders</div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+
+          <li><a href="#">Contact</a></li>
+
+          <li><a href="#" class="accountBtn">Account</a></li>
+        </ul>
+      </nav>
+
+      <div class="form-container show">
+        <div class="form-wrapper login">
+          <div class="closeBtn"></div>
+          <div class="login-form">
+            <div class="heading">Login</div>
+            <form action="#">
+              <div class="input-wrapper">
+                <input
+                  id="userEmail"
+                  type="email"
+                  placeholder="abcd@xyz.com"
+                  required
+                  value=""
+                />
+                <label for="userEmail">Email</label>
+              </div>
+
+              <div class="input-wrapper">
+                <input id="userPassword" type="password" />
+                <label for="userEmail">Password</label>
+              </div>
+
+              <button>Login</button>
+            </form>
+
+            <div class="helperText">
+              Create New Account?
+              <span><a href="#" class="registerBtn">Register</a></span>
+            </div>
+          </div>
+          <div class="register-form">
+            <div class="heading">Register</div>
+            <form action="#">
+              <div class="input-wrapper">
+                <input
+                  id="fname"
+                  type="text"
+                  placeholder="example:John Doe"
+                  required
+                  value=""
+                />
+                <label for="fname">Full Name</label>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="abcd@xyz.com"
+                  required
+                  value=""
+                />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="Aabbcccd1233"
+                />
+                <label for="password">Password</label>
+              </div>
+
+              <button>Create Account</button>
+            </form>
+
+            <div class="helperText">
+              Already have an account?
+              <span><a href="#" class="loginBtn">Login</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
